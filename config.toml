@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "zh-CN"
+title = "沉醉不知归路的个人网站"
+theme = "maupassant"
+
+[author]
+  name = "沉醉不知归路"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 1
