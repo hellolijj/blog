@@ -23,14 +23,5 @@
  开始使用 安装hugo brew install hugo hugo version  创建站点 hugo new site hellolijj  下载站点主题 cd hellolijj git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  在配置文件config.toml里加一行，配置本网站的主题：</description>
     </item>
     
-    <item>
-      <title>Hello</title>
-      <link>https://hellolijj.github.io/post/hello/</link>
-      <pubDate>Mon, 08 Oct 2018 09:08:14 +0800</pubDate>
-      
-      <guid>https://hellolijj.github.io/post/hello/</guid>
-      <description>djasdjfasdfaj;</description>
-    </item>
-    
   </channel>
 </rss>
