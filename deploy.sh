@@ -12,6 +12,13 @@ fi
 # Build the project. 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+git add .
+git commit -m "$msg"
+git push
+
+
+
+
 # Go To Public folder
 cd public
 
@@ -24,9 +31,3 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-# Come Back
-cd ..
-
-git add .
-git commit -m "$msg"
-git push origin master

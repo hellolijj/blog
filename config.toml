@@ -1,14 +1,33 @@
-baseURL = "http://example.org/"
+baseURL = "https://hellolijj.github.io/"
 languageCode = "zh-CN"
-title = "沉醉不知归路的个人网站"
-theme = "maupassant"
+title = "李俊君 个人博客"
+theme = "hyde"
 
 [author]
   name = "沉醉不知归路"
 
+[params]
+  description = "热爱生活，热爱开源技术"
+  subtitle = "热爱贡献"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [menu]
   [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
+    identifier = "kuberntes"
+    name = "kubernetes"
+    url = "/post/kuberntes/"
     weight = 1
+  [[menu.main]]
+    identifier = "docker"
+    name = "docker"
+    url = "/post/docker/"
+    weight = 2
+  [[menu.main]]
+    identifier = "istio"
+    name = "istio"
+    url = "/post/istio/"
+    weight = 3
+  
