@@ -3,6 +3,9 @@ languageCode = "zh-CN"
 title = "李俊君 个人博客"
 theme = "hyde"
 
+# 显示前70个中文文字 
+hasCJKLanguage = true
+
 [author]
   name = "沉醉不知归路"
 
@@ -16,18 +19,7 @@ theme = "hyde"
 
 [menu]
   [[menu.main]]
-    identifier = "kuberntes"
-    name = "kubernetes"
-    url = "/post/kuberntes/"
+    identifier = "post"
+    name = "技术博客"
+    url = "/post/"
     weight = 1
-  [[menu.main]]
-    identifier = "docker"
-    name = "docker"
-    url = "/post/docker/"
-    weight = 2
-  [[menu.main]]
-    identifier = "istio"
-    name = "istio"
-    url = "/post/istio/"
-    weight = 3
-  

@@ -6,21 +6,27 @@
     <description>Recent content on 李俊君 个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Oct 2018 19:00:25 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 09:40:03 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>hugo 发布第一篇博客	</title>
+      <link>https://hellolijj.github.io/post/hugo/start-first-blog/</link>
+      <pubDate>Mon, 08 Apr 2019 09:40:03 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/hugo/start-first-blog/</guid>
+      <description>按照网上大多数的博客，可以很快使用 hugo 创建一个个人博客静态网站。甚至支持自定义选择皮肤、上传至github，使用github的pages功能构</description>
+    </item>
+    
+    <item>
       <title>Hugo构建静态网站</title>
-      <link>https://hellolijj.github.io/post/hugo%E6%9E%84%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</link>
+      <link>https://hellolijj.github.io/post/hugo/hugo-install-website/</link>
       <pubDate>Tue, 09 Oct 2018 19:00:25 +0800</pubDate>
       
-      <guid>https://hellolijj.github.io/post/hugo%E6%9E%84%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</guid>
-      <description>3.4.1 hugo构建静态网站 @(3.4 hugo)[blog, 个人网站]
-一些资料汇总 hugo官方网站：https://gohugo.io hugo官方中文文档：http://www.gohugo.org/doc/ hugo github项目：https://github.com/gohugoio/hugo hugo 安装参考：利用Hugo和Github Pages免费创建并永久托管网站 hugo 主题安装： 从Hexo迁移到Hugo-送漂亮的Hugo Theme主题
- hugo 适合于构建个人网站。因为对于大多数程序猿来说，都有使用markdown的习惯。而hugo 可以很方便将自己的markdown文档生成静态网站，上传至github。 或者gitee，即可以方便的，无成本的构建个人网站。 1、Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
- 开始使用 安装hugo brew install hugo hugo version  创建站点 hugo new site hellolijj  下载站点主题 cd hellolijj git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  在配置文件config.toml里加一行，配置本网站的主题：</description>
+      <guid>https://hellolijj.github.io/post/hugo/hugo-install-website/</guid>
+      <description>3.4.1 hugo构建静态网站 @(3.4 hugo)[blog, 个人网站] 一些资料汇总 hugo官方网站：https://gohugo.io hugo官方中文文档：http://ww</description>
     </item>
     
   </channel>
