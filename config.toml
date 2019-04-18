@@ -1,6 +1,6 @@
 baseURL = "https://hellolijj.github.io/"
 languageCode = "zh-CN"
-title = "李俊君 个人博客"
+title = "Joshua's blog"
 theme = "hyde"
 
 # 显示前70个中文文字 
@@ -23,3 +23,8 @@ hasCJKLanguage = true
     name = "技术博客"
     url = "/post/"
     weight = 1
+  [[menu.life]]
+    identifier = "life"
+    name = "生活故事"
+    url = "/life/"
+    weight = 2

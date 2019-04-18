@@ -18,6 +18,12 @@
   </url>
   
   <url>
+    <loc>https://hellolijj.github.io/</loc>
+    <lastmod>2019-04-08T09:40:03+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hellolijj.github.io/post/</loc>
     <lastmod>2019-04-08T09:40:03+08:00</lastmod>
     <priority>0</priority>
@@ -25,12 +31,6 @@
   
   <url>
     <loc>https://hellolijj.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hellolijj.github.io/</loc>
-    <lastmod>2019-04-08T09:40:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   

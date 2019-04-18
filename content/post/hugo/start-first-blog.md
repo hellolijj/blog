@@ -28,8 +28,6 @@ draft: false
     └── quote
         ├── first.md       // <- https://example.com/quote/first/
         └── second.md      // <- https://example.com/quote/second/
-        |
-        └
 ```
 
 在安装hugo完成后，默认情况下，只能使用访问 post/firstpost.md 或者 post/happy/ness.md 形式访问。 
