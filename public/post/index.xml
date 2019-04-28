@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 08 Apr 2019 09:40:03 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 16:45:32 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why Docker Was So Hot</title>
+      <link>https://hellolijj.github.io/post/k8s/why-docker-so-hot/</link>
+      <pubDate>Thu, 25 Apr 2019 16:45:32 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/why-docker-so-hot/</guid>
+      <description>学习原文：https://time.geekbang.org/column/article/14254 这篇文章介绍了docker干掉 Cloud Fou</description>
+    </item>
+    
+    <item>
+      <title>带着问题去学习系列：《深入剖析kuberntes》</title>
+      <link>https://hellolijj.github.io/post/k8s/why-k8s-be-no.1/</link>
+      <pubDate>Thu, 25 Apr 2019 13:40:47 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/why-k8s-be-no.1/</guid>
+      <description>原文：https://time.geekbang.org/column/article/14252 问题一：为什么kuberntes能打败do</description>
+    </item>
     
     <item>
       <title>hugo 发布第一篇博客	</title>
