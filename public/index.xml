@@ -6,10 +6,37 @@
     <description>Recent content on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 25 Apr 2019 16:45:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 20:06:14 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Merge Commits</title>
+      <link>https://hellolijj.github.io/post/git/how-to-merge-commits/how-to-merge-commits/</link>
+      <pubDate>Tue, 30 Apr 2019 20:06:14 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/git/how-to-merge-commits/how-to-merge-commits/</guid>
+      <description>背景，做一个小demo，写了十几个commits ，其实最终只要上传一个commits就可以。 那么如何将这些commit 合并成一个commit</description>
+    </item>
+    
+    <item>
+      <title>Pouch First Touch</title>
+      <link>https://hellolijj.github.io/post/k8s/pouch-first-touch/</link>
+      <pubDate>Tue, 30 Apr 2019 16:19:41 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/pouch-first-touch/</guid>
+      <description>看了亮哥的《docker源码分析》热情澎湃，但是自己远没有这个能力。自从上次被面试后，一改之前的学习表面，学习特性的态度。今天对着 pouch 开源项目</description>
+    </item>
+    
+    <item>
+      <title>Docker Element Knowledge</title>
+      <link>https://hellolijj.github.io/post/k8s/docker-element-knowledge/docker-element-knowledge/</link>
+      <pubDate>Mon, 29 Apr 2019 11:35:14 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/docker-element-knowledge/docker-element-knowledge/</guid>
+      <description>@(1.1 kubernetes)[容器] &amp;gt; 大家都知道容器技术实际上就是运用了linux3.10版本以上的 cgroup、namespaces功能。那么</description>
+    </item>
     
     <item>
       <title>Why Docker Was So Hot</title>
