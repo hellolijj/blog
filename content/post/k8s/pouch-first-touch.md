@@ -114,4 +114,26 @@ func initRoute(s *Server) *mux.Router {
 }
 ```
 
-然后根据对应api的接口可以找到对应的handle处理程序。
+然后根据对应api的接口可以找到对应的handle处理程序。返回 Version 结构体的Json给客户端。
+
+```
+func (mgr *SystemManager) Version() (types.SystemVersion, error) {
+	kernelVersion := unknownKernelVersion
+	if kv, err := kernel.GetKernelVersion(); err != nil {
+		logrus.Warnf("Could not get kernel version: %v", err)
+	} else {
+		kernelVersion = kv.String()
+	}
+
+	return types.SystemVersion{
+		APIVersion:    version.APIVersion,
+		Arch:          runtime.GOARCH,
+		BuildTime:     version.BuildTime,
+		GitCommit:     version.GitCommit,
+		GoVersion:     runtime.Version(),
+		KernelVersion: kernelVersion,
+		Os:            runtime.GOOS,
+		Version:       version.Version,
+	}, nil
+}
+```
