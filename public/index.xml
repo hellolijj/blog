@@ -6,10 +6,19 @@
     <description>Recent content on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 May 2019 15:52:28 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2019 17:07:11 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What Happen Pouchd</title>
+      <link>https://hellolijj.github.io/post/k8s/what-happen-pouchd/</link>
+      <pubDate>Fri, 10 May 2019 17:07:11 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/what-happen-pouchd/</guid>
+      <description>pouch 分为 客户端和服务端。服务端端启动 通过 pouchd 实现。可以使用如下参数： 参考：http://pouchcontainer.io/#/pouch/do</description>
+    </item>
     
     <item>
       <title>Pouch Test Dev</title>
