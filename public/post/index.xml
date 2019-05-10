@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 30 Apr 2019 20:06:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2019 15:52:28 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pouch Test Dev</title>
+      <link>https://hellolijj.github.io/post/k8s/pouch-test-dev/</link>
+      <pubDate>Fri, 10 May 2019 15:52:28 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/pouch-test-dev/</guid>
+      <description>对于一个开源项目来说，了解它的测试流程，搭建测试环境是对理解代码有一定好处的。本文参照 pouch 测试文档，搭建测试环境，记录此过程中的一点思考。 pouch 测</description>
+    </item>
     
     <item>
       <title>How to Merge Commits</title>
