@@ -53,13 +53,24 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
-    <a href="https://hellolijj.github.io/post/k8s/what-happen-pouchd/">What Happen Pouchd</a>
+    <a href="https://hellolijj.github.io/post/k8s/what-does-daemon-do/what-does-daemon-do/">What Does Daemon Do？</a>
+  </h1>
+  <time datetime="2019-05-11T15:45:20&#43;0800" class="post-date">Sat, May 11, 2019</time>
+  pouch daemon 位于daemon这个包内。 type Daemon struct { config *config.Config containerStore *meta.Store // ctrdDaemon controls containerd process ctrdDaemon *supervisord.Daemon // ctrdClient is grpc client connecting to the containerd ctrdClient ctrd.APIClient containerMgr mgr.ContainerMgr systemMgr mgr.SystemMgr imageMgr mgr.ImageMgr volumeMgr mgr.VolumeMgr networkMgr mgr.NetworkMgr server server.Server containerPlugin hookplugins.ContainerPlugin imagePlugin hookplugins.ImagePlugin daemonPlugin hookplugins.DaemonPlugin volumePlugin hookplugins.VolumePlugin criPlugin hookplugins.CriPlugin apiPlugin hookplugins.APIPlugin eventsService *events.Events } pouch d
+  
+  <div class="read-more-link">
+    <a href="/post/k8s/what-does-daemon-do/what-does-daemon-do/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://hellolijj.github.io/post/k8s/what-happen-pouchd/what-happen-pouchd/">What Happen Pouchd</a>
   </h1>
   <time datetime="2019-05-10T17:07:11&#43;0800" class="post-date">Fri, May 10, 2019</time>
   pouch 分为 客户端和服务端。服务端端启动 通过 pouchd 实现。可以使用如下参数： 参考：http://pouchcontainer.io/#/pouch/do
   
   <div class="read-more-link">
-    <a href="/post/k8s/what-happen-pouchd/">Read More…</a>
+    <a href="/post/k8s/what-happen-pouchd/what-happen-pouchd/">Read More…</a>
   </div>
   
 </article><article class="post">

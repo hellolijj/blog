@@ -73,3 +73,22 @@ oom_adj  oom_score  oom_score_adj
 
 第十二步：设置 lxcfs
 默认情况下，没有开启 lxcfs, 通过 `enable-lxcfs` 开启 lxcfs, 开启了 lxcfs, 需要安装 lxcfs，并放于`/usr/local/bin/lxcfs`路径中（可通过`lxcfs`参数配置）	
+
+> 为什么使用 lxcfs？
+
+> 我们知道容器的隔离是使用namespaces实现的，容器里运行的应用实际上是运行在宿主机上，只是pid不同、user、hostname、network、mount等不同罢了。本质上是同一个东西，在不同的地方看起来不一样。
+
+> 例如，在容器内、宿主机运行 `ls /proc` 看到的东西，基本是一样的（pid文件夹不一样）。这就导致了使用 `top` 命令采集到的信息是一样的。如图
+
+![proc](../proc.png)
+
+![top](../top.png)
+
+> LXCFS是基于FUSE实现而成的一套用户态文件系统，它通过用户态程序和内核FUSE模块交互完成。
+> LXCFS主要通过调用底层fuse的lib库libfuse和内核模块fuse交互实现成一个用户态的文件系统。
+
+第十三步：初始化通道信号channel, 创建 pouch daemon。启动一个携程运行daemon。
+通过 select 收集关闭 daemon 或者错误信息，然后退出。
+
+todo: 详细介绍这里的多携程工作流程。
+daemonset 的初始化启动，看下一篇介绍： what-does-daemon-do
