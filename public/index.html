@@ -53,10 +53,21 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
+    <a href="https://hellolijj.github.io/post/k8s/kube-scheduler-source-analysis/">Kube Scheduler Source Analysis</a>
+  </h1>
+  <time datetime="2019-05-12T14:13:04&#43;0800" class="post-date">Sun, May 12, 2019</time>
+  kube-scheduler 源码分析 网上有很多 kubernetes 源码分析的博客。但是，我的源码分析记录我的思考和跟别人不一样的地方。 对于很多人来说，对于 kube-scheduler 来说，很多人只能说出预选和优
+  
+  <div class="read-more-link">
+    <a href="/post/k8s/kube-scheduler-source-analysis/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
     <a href="https://hellolijj.github.io/post/k8s/what-does-daemon-do/what-does-daemon-do/">What Does Daemon Do？</a>
   </h1>
   <time datetime="2019-05-11T15:45:20&#43;0800" class="post-date">Sat, May 11, 2019</time>
-  pouch daemon 位于daemon这个包内。 type Daemon struct { config *config.Config containerStore *meta.Store // ctrdDaemon controls containerd process ctrdDaemon *supervisord.Daemon // ctrdClient is grpc client connecting to the containerd ctrdClient ctrd.APIClient containerMgr mgr.ContainerMgr systemMgr mgr.SystemMgr imageMgr mgr.ImageMgr volumeMgr mgr.VolumeMgr networkMgr mgr.NetworkMgr server server.Server containerPlugin hookplugins.ContainerPlugin imagePlugin hookplugins.ImagePlugin daemonPlugin hookplugins.DaemonPlugin volumePlugin hookplugins.VolumePlugin criPlugin hookplugins.CriPlugin apiPlugin hookplugins.APIPlugin eventsService *events.Events } pouch d
+  pouch daemon 位于daemon这个包内。 pouch daemon是pouch的守护进程，这里也可以看出，daemon 由crtd(containerd)、cont
   
   <div class="read-more-link">
     <a href="/post/k8s/what-does-daemon-do/what-does-daemon-do/">Read More…</a>

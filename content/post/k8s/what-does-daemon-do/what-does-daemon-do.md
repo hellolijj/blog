@@ -6,6 +6,11 @@ draft: false
 
 pouch daemon 位于daemon这个包内。
 
+pouch daemon是pouch的守护进程，这里也可以看出，daemon 由crtd(containerd)、container、image、volume、network、server等部分组成。
+
+根据上篇文章分析，在main函数里构建了一个 main.go 运行了 `d := daemon.NewDaemon(cfg)` 返回 daemon 对象。在 传入进去的 `cfg` 是flag的一些配置参数。NewDaemon 位于 daemon/daemon.go#NewDaemon 中。
+
+
 ```golang
 type Daemon struct {
 	config         *config.Config
@@ -31,10 +36,7 @@ type Daemon struct {
 	apiPlugin       hookplugins.APIPlugin
 	eventsService   *events.Events
 }
-```
-pouch daemon是pouch的守护进程，这里也可以看出，daemon 由crtd(containerd)、container、image、volume、network、server等部分组成。
-
-根据上篇文章分析，在main函数里构建了一个 main.go 运行了 `d := daemon.NewDaemon(cfg)` 返回 daemon 对象。在 传入进去的 `cfg` 是flag的一些配置参数。NewDaemon 位于 daemon/daemon.go#NewDaemon 中。
+```	
 
 ## NewDaemon 函数
 
