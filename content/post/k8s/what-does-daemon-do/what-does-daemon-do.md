@@ -114,7 +114,31 @@ return &Daemon{
 ```
 
 
-## run daemon 函数
+
+## loadPlugin函数里
 
 main函数里获取了daemon对象后，创建一个携程运行 daemon 的 run 函数。 函数位于 daemon/daemon.go#run。
+
+在 run daemon函数之前，运行 loadPlugin 函数。
+
+loadPlugin函数包含：
+
+- daemonPlugin
+- containerPlugin
+- imagePlugin
+- volumePlugin
+- criPlugin
+- apiPlugin
+
+虽然 pouch 还有没有实现这些插件，但是可供以后扩展。
+
+## daemon run 函数
+
+加载完成后，
+第一步： 初始化运行时
+> 初始化运行时创建 runtimes 目录
+
+第二步: 初始化eventsService、imageMgr、systemMgr、volumeMgr、containerMgr、networkMgr 这些顺序不能改变。
+
+
 
