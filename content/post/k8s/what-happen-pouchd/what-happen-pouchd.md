@@ -91,4 +91,4 @@ oom_adj  oom_score  oom_score_adj
 通过 select 收集关闭 daemon 或者错误信息，然后退出。
 
 todo: 详细介绍这里的多携程工作流程。
-daemonset 的初始化启动，看下一篇介绍： what-does-daemon-do
+daemonset 的初始化启动，看下一篇介绍： [what-does-daemon-do](../../what-happen-pouchd/what-happen-pouchd)
