@@ -157,6 +157,9 @@ import 包要求：第一部分使用系统包、第二部分使用本项目包�
 
 （4） todo 部分使用大写 TODO
 
+（5）使用日志返回错误信息的时候，注意大小写形式。
+https://github.com/golang/go/wiki/CodeReviewComments#error-strings
+
 
 
 

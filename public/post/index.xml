@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 17 May 2019 20:14:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 15:43:14 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Node Topology Manager</title>
+      <link>https://hellolijj.github.io/post/k8s/node-topology-manager/</link>
+      <pubDate>Mon, 20 May 2019 15:43:14 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/node-topology-manager/</guid>
+      <description>今年暑假我报了一个谷歌编程之夏的项目。 方向：https://github.com/cncf/soc#kubernetes-with-hard</description>
+    </item>
     
     <item>
       <title>Pouch Dev Note (1)</title>
