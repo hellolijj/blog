@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 May 2019 15:43:14 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 18:37:42 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What Happen Defer Behind Request Closely</title>
+      <link>https://hellolijj.github.io/post/go/what-happen-defer-behind-request-closely/</link>
+      <pubDate>Tue, 21 May 2019 18:37:42 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/go/what-happen-defer-behind-request-closely/</guid>
+      <description>今天遇到了一个问题，前前后后调试了一个下午。特此记录一下。 源代码如下： resp, err := client.post(ctx, &amp;quot;/containers/prune&amp;quot;, q, nil, nil) defer resp.Body.Close() if err != nil { return nil, err } 这段代码乍得一看，也没有什么问题</description>
+    </item>
+    
+    <item>
+      <title>How to Delete Branch</title>
+      <link>https://hellolijj.github.io/post/git/how-to-delete-branch/</link>
+      <pubDate>Tue, 21 May 2019 17:40:16 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/git/how-to-delete-branch/</guid>
+      <description>在使用 git 的过程中经常有删除分支的需求。这个命令老是爱忘记，特地记录一下。 # 删除远程分支 $ git push origin --delete dev-container-prune # 删除本机的分支 $ git branch -D dev-container-prune</description>
+    </item>
     
     <item>
       <title>Node Topology Manager</title>
