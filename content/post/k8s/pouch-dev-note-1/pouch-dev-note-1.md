@@ -36,6 +36,7 @@ Init 函数里有关于这个命令的用法。
 RunE 是执行这个命令要运行的函数。
 Args 是对参数的要求。
 
+
 ```
 func (s *SearchCommand) Init(c *Cli) {
 	s.cli = c
@@ -63,6 +64,7 @@ func (s *SearchCommand) Init(c *Cli) {
 本特性是调用 ImageSearch 接口。具体的实现在 `client/image_search.go` 文件里。
 
 因为pouch项目是采用c/s架构。一条命令一般由客户端发送一个请求。daemon 负责相应。因此 client 目录下的大多都是构造请求参数，然后发送请求的 daemom。 pouch search 构造请求代码如下：
+
 ```
 var results []types.SearchResultItem
 
