@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 21 May 2019 18:37:42 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 11:22:01 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gsoc Think List</title>
+      <link>https://hellolijj.github.io/post/k8s/gsoc-think-list/</link>
+      <pubDate>Wed, 26 Jun 2019 11:22:01 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/gsoc-think-list/</guid>
+      <description>很幸运参加了 2019 年的 GSoC， 这是我第一次做类似的事情，特地写系列博客记录这两个月的学习成果。 项目名称 Kubernetes with hardware devices topology awareness at node level 在 kubernestes</description>
+    </item>
     
     <item>
       <title>What Happen Defer Behind Request Closely</title>
