@@ -28,6 +28,7 @@ draft: false
 而没有考虑同个主机里GPU卡直接的通道亲和性时，也会给多卡计算时需要发生数据传输时(如all_reduce操作)带来过高的通信开销。
 
 参考文档：[如何在Kubernetes实现GPU调度及共享](https://mp.weixin.qq.com/s?src=11&timestamp=1561519948&ver=1691&signature=7TuKMdEZOqXeLweYXiZ4o8z7sYJd2wtc2y5Fwxt9qlpZQEqtd2SgMLyQV1kS9lBrvVhxL6tJ3Z5KAwFq2C3uP5Mh3S7uGnSelyh8WMaXKj8GKpEwUi*QKk0aJt0o43lI&new=1)
+
 ## 项目工作量
 
 - 弄清楚 gpu 共享 的原理
@@ -36,9 +37,9 @@ draft: false
 
 ## 项目输出博客
 
-- how to write gsoc proposal
+- [how to write gsoc proposal](../how-to-write-gsoc-proposal/)
 - kuberentes 支持 gpu 原理
-- device plugin in 源码解析
+- device plugin 源码解析
 - gpushare 原理
 - gpu 底层结构
 - scheduler-extender 解析

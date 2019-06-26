@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 26 Jun 2019 11:22:01 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 11:48:09 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Write Gsoc Proposal</title>
+      <link>https://hellolijj.github.io/post/k8s/how-to-write-gsoc-proposal/</link>
+      <pubDate>Wed, 26 Jun 2019 11:48:09 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/how-to-write-gsoc-proposal/</guid>
+      <description>对于写prosal，需要准备搜集很多材料。例如 背景、todolist、proposal 模版等。而实际上 gsoc proposal 是需要提前跟 mentor 联系的。只要跟 mentor 商量</description>
+    </item>
     
     <item>
       <title>Gsoc Think List</title>
