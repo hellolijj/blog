@@ -6,10 +6,19 @@
     <description>Recent content on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 26 Jun 2019 11:48:09 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2019 21:00:04 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gpu Topolgy Scheduler Design</title>
+      <link>https://hellolijj.github.io/post/k8s/gpu_topolgy_design/</link>
+      <pubDate>Thu, 27 Jun 2019 21:00:04 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/k8s/gpu_topolgy_design/</guid>
+      <description>gsoc 设计文档更新版。 device plugin 针对 device // NvidiaDevicePlugin implements the Kubernetes device plugin API type NvidiaDevicePlugin struct { devs []*pluginapi.Device realDevNames []string devNameMap map[string]uint devIndxMap map[uint]string socket string gpuTopology gpuTopology stop chan interface{} health chan *pluginapi.Device server *grpc.Server } // gpuTopologyType type gpuTopologyType nvml.P2PLinkType // gpuTopology type gpuTopology map[uint]map[uint]gpuTopologyType device-plugin 启动的时候将 gpu topology 写入no</description>
+    </item>
     
     <item>
       <title>How to Write Gsoc Proposal</title>
