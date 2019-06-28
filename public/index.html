@@ -53,13 +53,13 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
-    <a href="https://hellolijj.github.io/post/k8s/gpu_topolgy_design/">Gpu Topolgy Scheduler Design</a>
+    <a href="https://hellolijj.github.io/post/k8s/gosc-design/gpu_topolgy_design/">Gpu Topolgy Scheduler Design</a>
   </h1>
   <time datetime="2019-06-27T21:00:04&#43;0800" class="post-date">Thu, Jun 27, 2019</time>
-  gsoc 设计文档更新版。 device plugin 针对 device // NvidiaDevicePlugin implements the Kubernetes device plugin API type NvidiaDevicePlugin struct { devs []*pluginapi.Device realDevNames []string devNameMap map[string]uint devIndxMap map[uint]string socket string gpuTopology gpuTopology stop chan interface{} health chan *pluginapi.Device server *grpc.Server } // gpuTopologyType type gpuTopologyType nvml.P2PLinkType // gpuTopology type gpuTopology map[uint]map[uint]gpuTopologyType device-plugin 启动的时候将 gpu topology 写入no
+  gsoc 设计文档更新版。 目标 当一个机器学习任务使用到 n 块 gpu 卡时，可根据 gpu 之间的拓扑，选择亲和性强的 gpu 完成任务。 非目标 节点内部的 亲和性除了 gpu 与 gpu 之间
   
   <div class="read-more-link">
-    <a href="/post/k8s/gpu_topolgy_design/">Read More…</a>
+    <a href="/post/k8s/gosc-design/gpu_topolgy_design/">Read More…</a>
   </div>
   
 </article><article class="post">
