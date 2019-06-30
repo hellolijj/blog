@@ -22,7 +22,36 @@ gsoc 设计文档更新版。
 
 ### 1. device 上报 gpu topology
 
-#### 1.1 通过 nvml 包获取 节点中 gpu topology 信息
+#### 1.1 nvml 获取 gpu topology 底层信息汇总
+
+在 linux 机器中，可通过  `nvidia-smi topo -m` 获取机器的 gpu 拓扑信息。
+
+![gpu topology on machine](../gpu_topology_on_machine.png)
+
+缩写的对应关系如下
+
+| P2PLinkType | P2PLinkTypeDesc | 缩写 | 路径权值 |
+| --- | --- | --- | --- |
+| sdfP2PLinkCrossCPU | Cross CPU socket | SYS |  1 |
+| sdP2PLinkSameCPU | Same CPU socket | NODE | 2 |
+| P2PLinkHostBridge | Host PCI bridge | PHB | 3 |
+| P2PLinkMultiSwitch | Multiple PCI switches | PXB | 4 |
+| P2PLinkSingleSwitch | Single PCI switch | PIX | 5 |
+| P2PLinkSameBoard | Same board | PSB | 6 |
+| SingleNVLINKLink |  | NV1 |  |
+| TwoNVLINKLinks |  | NV2 | |
+| ThreeNVLINKLinks |  | NV3 | |
+| FourNVLINKLinks |  | NV4 | |
+
+参考文档：
+
+[k8s-device-plugin nvidia包](https://github.com/NVIDIA/k8s-device-plugin/blob/master/vendor/github.com/NVIDIA/gpu-monitoring-tools/bindings/go/nvml/nvml.go#L101)
+
+[gpu-monitoring-tools](https://github.com/NVIDIA/gpu-monitoring-tools/blob/master/bindings/go/dcgm/topology.go#L17)
+
+[浅析GPU通信技术（中）-NVLink](https://yq.aliyun.com/articles/599183)
+
+#### 1.2 通过 nvml 包获取 节点中 gpu topology 信息
 
 device-plugin 在初始化的时候，通过 nvml 包获取 节点中 gpu 的信息，包括 gpu topoloy。 
 
@@ -38,16 +67,18 @@ map[0][0] = 1
 map["2a80bf1391b2"]["3a8af139cbd"] = "Host PCI bridge"
 ```
 
-
-#### 1.2 device-plugin 上报 gpu topology 给 node
+#### 1.3 device-plugin 上报 gpu topology 给 node
 
 使用 node annotation 字段表示 gpu tology
 
-如： GSOC_2a80bf1391b2_3a8af139cbd: Cross CPU socket
+如： GSOC_ID_2a80bf1391b2_3a8af139cbd: Cross CPU socket
 
 > 注意 annotation 的 label key 不能超过 64 字符，因此使用 gpu 名称的最后一段（以“f”分割） 作为 gpu 简写
 
-#### 1.3 listAndWatch 上报自定义资源字段
+> 疑问： GSOC_ID_DESC_2a80bf1391b2_3a8af139cbd: Cross CPU socket 的格式更有助与格式的调试。
+> GSOC_ID_0_1: 2有助于程序内部的运算，相互转化。因此是否可以将两种类型信息都传上去？
+
+#### 1.4 listAndWatch 上报自定义资源字段
 
 device-plugin 在 listAndWatch 的过程 上传资源类型 "aliyun.com/gpu-count"
 
@@ -198,6 +229,6 @@ ALIYUN_COM_GPU_ASSUME_TIME: 1561718702
 
 ## 流程
 
+根据以上思路，可作下图简单描述整个流程
 
-
-todo
+![gpu topology on k8s](../gpu_topology_on_k8s.png)
