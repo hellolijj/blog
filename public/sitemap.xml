@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hellolijj.github.io/post/git/how-to-new-a-branch/</loc>
+    <lastmod>2019-07-28T16:47:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hellolijj.github.io/post/k8s/gosc-design/gpu_topolgy_design/</loc>
     <lastmod>2019-06-27T21:00:04+08:00</lastmod>
   </url>
@@ -104,7 +109,7 @@
   
   <url>
     <loc>https://hellolijj.github.io/</loc>
-    <lastmod>2019-06-27T21:00:04+08:00</lastmod>
+    <lastmod>2019-07-28T16:47:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,7 +121,7 @@
   
   <url>
     <loc>https://hellolijj.github.io/post/</loc>
-    <lastmod>2019-06-27T21:00:04+08:00</lastmod>
+    <lastmod>2019-07-28T16:47:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   

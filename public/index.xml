@@ -6,10 +6,19 @@
     <description>Recent content on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Jun 2019 21:00:04 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2019 16:47:01 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to New a Branch</title>
+      <link>https://hellolijj.github.io/post/git/how-to-new-a-branch/</link>
+      <pubDate>Sun, 28 Jul 2019 16:47:01 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/git/how-to-new-a-branch/</guid>
+      <description>创建一个分支是开发者日常使用最多的命令之一。通常我们都这样使用 $ git checkout -b dev 但是这个情况下创建的分支往往是基于当前分支而创建的新的分支。 有时候，</description>
+    </item>
     
     <item>
       <title>Gpu Topolgy Scheduler Design</title>

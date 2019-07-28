@@ -1,7 +1,7 @@
 ---
 title: "How to New a Branch"
 date: 2019-07-28T16:47:01+08:00
-draft: true
+draft: false
 ---
 
 创建一个分支是开发者日常使用最多的命令之一。通常我们都这样使用
