@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Gpu Topolgy Scheduler Design</title>
-      <link>https://hellolijj.github.io/post/k8s/gosc-design/gpu_topolgy_design/</link>
-      <pubDate>Thu, 27 Jun 2019 21:00:04 +0800</pubDate>
-      
-      <guid>https://hellolijj.github.io/post/k8s/gosc-design/gpu_topolgy_design/</guid>
-      <description>gsoc 设计文档更新版。 目标 当一个机器学习任务使用到 n 块 gpu 卡时，可根据 gpu 之间的拓扑，选择亲和性强的 gpu 完成任务。 非目标 节点内部的 亲和性除了 gpu 与 gpu 之间</description>
-    </item>
-    
-    <item>
       <title>How to Write Gsoc Proposal</title>
       <link>https://hellolijj.github.io/post/k8s/how-to-write-gsoc-proposal/</link>
       <pubDate>Wed, 26 Jun 2019 11:48:09 +0800</pubDate>
