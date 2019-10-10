@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Joshua&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 28 Jul 2019 16:47:01 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 16:04:23 +0800</lastBuildDate>
     
 	<atom:link href="https://hellolijj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Change Commit Message</title>
+      <link>https://hellolijj.github.io/post/git/how-to-change-commit-message/</link>
+      <pubDate>Thu, 10 Oct 2019 16:04:23 +0800</pubDate>
+      
+      <guid>https://hellolijj.github.io/post/git/how-to-change-commit-message/</guid>
+      <description>在使用 git 的过程中经常有修改上一个 commit message 的需求。这个命令老是爱忘记，特地记录一下。 # 修改上一个 commit message, 使用 --amend 进入 vim 编辑模式 $ git commit --amend # 修改上3个 commit message, 使</description>
+    </item>
     
     <item>
       <title>How to New a Branch</title>
