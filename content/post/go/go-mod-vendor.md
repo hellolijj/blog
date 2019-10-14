@@ -35,3 +35,10 @@ draft: false
 ```bash
 export GO111MODULE=on && export GOPROXY=https://goproxy.io && go mod vendor
 ```
+
+## 其他
+
+出了 go 社区推出的 go proxy 代码服务外，还有几个其他的代理服务也值得推荐
+
+- 七牛云代理站点 https://goproxy.cn
+- 阿里云代理站点 https://mirros.aliyun.com/goproxy
