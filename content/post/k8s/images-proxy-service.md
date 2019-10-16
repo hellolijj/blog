@@ -18,6 +18,8 @@ draft: true
 
 - 寻找镜像代理服务
 
+- 通过 google云 终端的 docker pull 然后再 docker push 到阿里云的镜像仓库。然后再去使用阿里云的镜像仓库。
+
 ## 镜像代理服务
 
 Azure 中国提供了 `gcr.io` `k8s.gcr.io` 镜像代理服务
